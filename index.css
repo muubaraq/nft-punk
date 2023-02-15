@@ -1,0 +1,83 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(151, 85, 204);
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+header h3{
+    margin-top: 2px;
+}
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+ a {
+    text-decoration: none;
+}
+.section-one .red-link {
+    color: red;
+}
+
+ .btn-like {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 9px 20px;
+    width: 80px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.section-one .btn-1 {
+    background-color: rgb(151, 85, 204);
+    color: white;
+}
+
+.section-one .btn-2 {
+    color: rgb(151, 85, 204);
+    background-color: rgb(64, 25, 95);
+}
+
+.section-two {
+    color: white;
+    background-color:rgb(151, 85, 204);
+    margin-top: 35px;
+    padding: 28px 0;
+}
+
+.section-two .section-two-image-container {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+   
+}
+
+.section-two .game-img {
+    width: 340px;
+}
+.section-two .btn-section-two {
+    background-color: white;
+    color: rgb(151, 85, 204);
+}
+
+footer{
+    text-align: center;
+    padding-top:40px ;
+    color: rgb(151, 85, 204);
+}
